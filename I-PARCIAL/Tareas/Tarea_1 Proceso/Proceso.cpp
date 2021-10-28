@@ -66,7 +66,8 @@ void Proceso::setNumerador(float newNumerador)
 
 Proceso::Proceso(float num, float den)
 {
-   // TODO : implement
+   this.numerador = num;
+   this.denominador = den;
 }
 
 ////////////////////////////////////////////////////////////////////////
